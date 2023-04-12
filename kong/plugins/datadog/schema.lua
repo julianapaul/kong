@@ -41,13 +41,13 @@ local DEFAULT_METRICS = {
   },
   {
     name      = "request_size",
-    stat_type = "timer",
+    stat_type = "gauge",
     tags      = {"app:kong"},
     consumer_identifier = "custom_id"
   },
   {
     name      = "response_size",
-    stat_type = "timer",
+    stat_type = "gauge",
     tags      = {"app:kong"},
     consumer_identifier = "custom_id"
   },
